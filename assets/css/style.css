@@ -1,0 +1,65 @@
+:root{
+    --dark:#141318;
+    --light:#ffffff;
+}
+
+body{
+    font-family:'Oswald', sans-serif;
+    letter-spacing:.05rem;
+    font-weight:200;
+    background-color:var(--light);
+}
+
+.navbar i{color:#000!important;}
+
+.lead{font-size:1.6rem;}
+
+.btn-dark{
+    background-color:var(--dark)!important;
+    padding:.5rem 2rem;
+    font-size:1.4rem;
+}
+.btn-dark:hover{opacity:.9;}
+
+.bg-dark{background-color:var(--dark)!important;}
+.bg-light{background-color:var(--light)!important;}
+
+/*navbar*/
+.navbar{background:transparent!important;}
+.nav-link{font-size:1.6rem;}
+
+/*indicators*/
+.carousel-indicators{
+    position:absolute;
+    left:unset;
+    right:40px;
+    bottom:0;
+    top:50%;
+    transform:translateY(-50%);
+    margin:auto;
+}
+
+.carousel-indicators li{
+    border-radius:50%;
+    height:15px;
+    width:15px;
+}
+
+.slider-number{
+    bottom:20px;
+    left:unset;
+    right:40px;
+}
+
+.modal li a{font-size:3rem;}
+.modal li a:hover{text-decoration:underline;}
+
+.modal-footer button{
+    padding:.5rem 2rem;
+    font-size:1.4rem;
+}
+
+@media (max-width: 991.98px) { 
+    .navbar{position:relative;}
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hero Slider | 2</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand lead" href="#"><span class="font-weight-bold">Smart</span> Coworking</a> 
+            <a href="#" type="button" class="d-block d-lg-none" data-toggle="modal" data-target="#exampleModalCenter">
+                <i class="fa fa-bars text-dark lead" aria-hidden="true"></i>
+            </a>       
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link ml-5 text-light" href="#">Workspace </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5 text-light" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5 text-light" href="#">Enterprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5 text-light" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="row no-gutters">            
+            <div class="col-lg-4 d-flex py-5 py-lg-0">
+                <div class="container align-self-center">
+                    <h1 class="font-weight-bold text-uppercase">COWORKING IS THE NEW NORMAL</h1>
+                    <p class="lead mt-3">We offer flexible workspaces for enterprises or growing startups.</p>
+                    <a href="#" class="btn btn-dark rounded-0 btn-lg">Start now</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators flex-column">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="slider-number d-none d-lg-block position-absolute display-1 font-weight-bold text-light">01</h1>
+                            <img class="d-block w-100" src="assets/img/slide-01.jpg" alt="First slide">                            
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="slider-number d-none d-lg-block position-absolute display-1 font-weight-bold text-light">02</h1>
+                            <img class="d-block w-100" src="assets/img/slide-02.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="slider-number d-none d-lg-block position-absolute display-1 font-weight-bold text-light">03</h1>
+                            <img class="d-block w-100" src="assets/img/slide-03.jpg" alt="Third slide">                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="row no-gutters">
+            <div class="col-12 col-lg-9 bg-dark py-5 px-2">
+                <div class="container-fluid ">
+                    <h2 class="font-weight-bold text-light mb-3">The growing popularity of coworking spaces</h2>
+                    <p class="lead text-white-50">Coworking spaces are perfect for young entrepreneurs <a href="#" class="text-white-50">Lorem Ipsum</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 bg-light py-5">
+                <div class="container-fluid mt-2 text-center text-dark">
+                    <h2 class="font-weight-bold mb-3">Online reservation</h2>
+                    <a href="#" class="lead text-dark">Schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade bg-dark" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark border-0">
+                <div class="modal-header border-0 mx-auto">
+                    <h1 class="modal-title text-light" id="exampleModalLongTitle">Menu</h1>
+                </div>
+                <div class="modal-body text-center">
+                    <ul class="list-unstyled">
+                        <li class="nav-item mb-4"><a href="#" class="nav-link text-light">Workspace</a></li>
+                        <li class="nav-item mb-4"><a href="#" class="nav-link text-light">Locations</a></li>
+                        <li class="nav-item mb-4"><a href="#" class="nav-link text-light">Enterprise</a></li>
+                        <li class="nav-item mb-4"><a href="#" class="nav-link text-light">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 mx-auto">
+                    <button type="button" class="btn btn-light rounded-0" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</bodya>
+</html>
